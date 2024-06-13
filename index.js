@@ -66,5 +66,5 @@ document.addEventListener('DOMContentLoaded', () => {
         newListItem.remove()
     })
     let countValue = updateValue.length
-    listCount.textContent = `${updateValue.length}`
+    listCount.textContent = `${countValue}`
 })
