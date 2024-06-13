@@ -1,0 +1,215 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#MainPageDark{
+    background-color: #313131;
+    width: 100%;
+    height: 100%;
+}
+#themesBtn{
+    border: none;
+    background:none;
+    margin-top: 20px;
+    width: 20px;
+}
+#backgroundImageLightAndDark{
+    padding: 0;
+    /* position: relative; */
+    
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+#mainContant{
+    width: 1000px;
+}
+.mainContant{
+    position: absolute;
+    left: 400px;
+    width: 700px;
+    top: 100px;
+    height: 80%;
+}
+.todoText{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+    color: white;
+}
+.todoTextDark{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+    color: rgb(0, 0, 0);
+}
+#sreachInput{
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    background-color: rgb(251, 251, 251);
+}
+#sreachInputDark{
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+}
+#checkBox{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+#checkBoxInput{
+    display: flex; 
+    justify-content: center;
+    background-color: transparent;
+    outline: 1px solid  rgb(177, 177, 177);
+	border-radius: 50px;
+    position: relative;
+	width: 20px;  
+    height: 20px; 
+    appearance: none; 
+	cursor: pointer;
+	border: 0;
+    text-align: center;
+    align-items: center;
+}
+#checkBoxChange{
+    display: flex; 
+    justify-content: center;
+    background: url("./images/icon-check1.svg") ;
+	border-radius: 50px;
+    position: relative;
+	width: 20px;  
+    height: 20px; 
+    appearance: none; 
+	cursor: pointer;
+	border: 0;
+    text-align: center;
+    align-items: center;
+}
+#sreachInputvalue{
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    padding-left: 20px;
+    outline: none;
+}
+#sreachInputvalueDark{
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    outline: none;
+    
+}
+
+#sreachInputValue2{
+    border-radius: 5px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(255, 255, 255);
+}
+#sreachInputValue2Dark{
+    border-radius: 5px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(50, 50, 50);
+}
+.menuContant{
+    display: flex;
+    list-style: none;
+}
+.menuContant li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+#footerContant{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 10px;
+    padding-right: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(119, 119, 119);
+}
+#footerContantDark{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 10px;
+    padding-right: 20px;
+    background-color: rgb(50, 50, 50);
+    color: rgb(119, 119, 119);
+}
+#sreachInputSubmitBtn{
+    background: none;
+    outline: none;
+    border: none;
+
+}
+.dragAndDrop{
+    margin-top: 70px;
+    color: rgb(119, 119, 119);
+    text-align: center;
+}
+#updateValue{
+    padding: 15px;
+    list-style: none;
+    color: rgb(6, 6, 6);
+}
+#updateValueDark{
+    padding: 15px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+#hrLine{
+    width: 100%;
+    height: 1px;
+    color: rgb(159, 159, 159);
+}
+#clearBtn{
+    background:none;
+    border: none;
+    font-size: 15px;
+    color: rgb(159, 159, 159);
+
+}

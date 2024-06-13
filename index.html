@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Frontend Mentor | Todo app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        color: rgb(119, 119, 119);
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body id="MainPage" className="MainPage">
+    <div >
+      <div>
+        <img
+          src="./images/bg-desktop-light.jpg"
+          width="100%"
+          id="backgroundImageLightAndDark"
+          alt=""
+        />
+      </div>
+      <div id="mainContant">
+        <div class="mainContant">
+          <div>
+            <div class="Header">
+              <div class="todoText">Todo</div>
+              <div>
+                <button id="themesBtn">
+                  <img
+                    id="themesIcons"
+                    src="./images/icon-moon.svg"
+                    alt="light"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <div >
+               <form id="sreachInput">
+                <div id="checkBox"> <input type="checkbox" name="" id="checkBoxInput"></div>
+                <input type="text" id="sreachInputvalue" placeholder="Enter the List" />
+                <input type="submit" id="sreachInputSubmitBtn" value="">
+               </form>
+              </div>
+              <div id="sreachInputValue2">
+                <div id="sreachInputValue">
+                  <div id="addValue">
+
+                  <div >
+                    <ul  id="updateValue">
+                      
+                    </ul>
+                  </div>
+                    <!-- <hr id="hrLine" /> -->
+                  </div>
+                </div>
+                <div id="footerContant">
+                  <div><span id="listCount"></span> items left</div>
+
+                  <div>
+                    <ul class="menuContant">
+                      <li>All</li>
+                      <li>Active</li>
+                      <li>Completed</li>
+                    </ul>
+                  </div>
+                  <div><button id="clearBtn" type="button">Clear Completed</button></div>
+                </div>
+              </div>
+              <div class="dragAndDrop">Drag and drop to reorder list</div>
+
+              <div class="attribution">
+                Challenge by
+                <a
+                  href="https://www.frontendmentor.io?ref=challenge"
+                  target="_blank"
+                  >Frontend Mentor</a
+                >. Coded by <a href="#">Suresh Kumar</a>.
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
